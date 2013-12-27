@@ -1,0 +1,17 @@
+{
+  "itemName" : "spotlight",
+  "inventoryIcon" : "spotlighticon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "rarity" : "Uncommon",
+  "maxStack" : 1,
+  "description" : "A lamp projecting a narrow, intense beam of light.",
+  "shortdescription" : "Spotlight",
+  "largeImage" : "spotlightlarge.png",
+  "inspectionKind" : "tool",
+  "image" : "spotlight.png",
+  "handPosition" : [-2, 0],
+  "lightPosition" : [4, 0],
+  "lightColor" : [255, 255, 255],
+  "beamWidth" : 0.1,
+  "ambientFactor" : 0.5
+}
