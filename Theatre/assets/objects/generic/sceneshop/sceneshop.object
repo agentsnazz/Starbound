@@ -5,7 +5,7 @@
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
     "config" : "/interface/windowconfig/craftingtable.config",
-    "filter" : [ "craftingtable", "plain" ]
+    "filter" : [ "sceneshop" ]
   },
   "printable" : false,
   "description" : "An expert technical director could put on a great show with this.",
