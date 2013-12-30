@@ -1,0 +1,46 @@
+<NotepadPlus>
+    <Project name="Starbound Theatre">
+        <Folder name="items">
+            <Folder name="tools">
+                <File name="items\tools\c-wrench.miningtool" />
+                <File name="items\tools\c-wrench.png" />
+                <File name="items\tools\c-wrenchbig.png" />
+                <File name="items\tools\c-wrenchicon.png" />
+                <File name="items\tools\spotlight.flashlight" />
+                <File name="items\tools\spotlight.png" />
+                <File name="items\tools\spotlighticon.png" />
+                <File name="items\tools\spotlightlarge.png" />
+            </Folder>
+        </Folder>
+        <Folder name="objects">
+            <Folder name="generic">
+                <Folder name="sceneshop">
+                    <File name="objects\generic\sceneshop\sceneshop.frames" />
+                    <File name="objects\generic\sceneshop\sceneshop.object" />
+                    <File name="objects\generic\sceneshop\sceneshop.png" />
+                    <File name="objects\generic\sceneshop\sceneshop.xcf" />
+                    <File name="objects\generic\sceneshop\sceneshopicon.png" />
+                </Folder>
+            </Folder>
+            <Folder name="lighting" />
+        </Folder>
+        <Folder name="recipes">
+            <Folder name="starter">
+                <Folder name="plain">
+                    <File name="recipes\starter\plain\sceneshop.recipe" />
+                </Folder>
+                <Folder name="scene shop">
+                    <File name="recipes\starter\scene shop\c-wrench.recipe" />
+                </Folder>
+            </Folder>
+        </Folder>
+        <Folder name="sfx">
+            <Folder name="tools">
+                <File name="sfx\tools\c-wrench_hit.wav" />
+            </Folder>
+        </Folder>
+        <File name="player.config" />
+        <File name="README.md" />
+        <File name="theatre.modinfo" />
+    </Project>
+</NotepadPlus>
