@@ -1,0 +1,84 @@
+{
+  "objectName" : "magiccampfire",
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "Blue embers fall from the mystic flames.",
+  "shortdescription" : "Magic Camp Fire",
+  "subtitle" : "Campsite cooking.",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : "200",
+  "objectType" : "interactable",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/magiccampfire.config",
+    "filter" : [ "magiccampfire" ]
+  },
+
+  "hydrophobic" : true,
+
+  "apexDescription" : "A magical camp fire.",
+  "avianDescription" : "Warm with mystic light.",
+  "floranDescription" : "Floran afraid of strange blue flames.",
+  "glitchDescription" : "Statement. This camp fire has color-changing properties.",
+  "humanDescription" : "There is something magical about this campfire.",
+  "hylotlDescription" : "This strange camp fire can be useful.",
+
+  "lightColor" : [0, 255, 255],
+  
+  "pointLight" : true,
+  "pointBeam" : 1,
+  "pointAngle" : 0,
+  "lightPosition" : [0, 0],
+  
+  "flickerDistance" : 0.5,
+  "flickerStrength" : 0.1,
+
+  "particleEmitter" : {
+    "emissionRate" : 1.0,
+    "emissionVariance" : 0.5,
+
+    "particle" : {
+      "type" : "ember",
+      "size" : "1.0",
+      "color" : [255, 100, 0, 255],
+      "light" : [150, 50, 50],
+      "fade" : 0.9,
+      "initialVelocity" : [0.0, 5.0],
+      "finalVelocity" : [0.0, 3.0],
+      "approach" : [0, 20],
+      "timeToLive" : 2,
+      "layer" : "middle"
+    },
+
+    "particleVariance" : {
+      "initialVelocity" : [0.5, 2.0]
+    }
+  },
+
+  "inventoryIcon" : "magiccampfireicon.png",
+  "orientations" : [
+    {
+      "image" : "magiccampfire.png:<color>.<frame>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/campfire.wav",
+
+  "statusEffects" : [
+    {
+      "kind" : "Warmth",
+      "amount" : 140,
+      "range" : 16
+    }
+  ]
+
+}

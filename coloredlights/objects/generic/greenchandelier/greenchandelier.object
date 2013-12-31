@@ -1,0 +1,76 @@
+{
+  "objectName" : "greenchandelier",
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : "50",
+
+  "description" : "The chandelier glimmers with a soft light.",
+  "shortdescription" : "Green Chandelier",
+  "race" : "generic",
+
+  "hydrophobic" : true,
+
+  "apexDescription" : "An ornate design for a source of light.",
+  "avianDescription" : "This will look perfect above the dining table.",
+  "floranDescription" : "Hanging fire scaresss floran.",
+  "glitchDescription" : "Statement. Chandeliers are aesthetically pleasing.",
+  "humanDescription" : "This makes me feel richer.",
+  "hylotlDescription" : "These can be used to light up homes.",
+
+  "statusEffects" : [
+    {
+      "kind" : "Warmth",
+      "amount" : 8,
+      "range" : 4
+    } ],
+
+  "lightColor" : [0, 255, 0],
+  
+  "pointLight" : true,
+  "pointBeam" : 1,
+  "pointAngle" : 0,
+  "lightPosition" : [0, 0],
+  
+  "flickerDistance" : 0.5,
+  "flickerStrength" : 0.1,
+
+  "particleEmitter" : {
+    "emissionRate" : 1.0,
+    "emissionVariance" : 0.5,
+
+    "particle" : {
+      "type" : "ember",
+      "size" : "1.0",
+      "color" : [0, 255, 0, 255],
+      "light" : [0, 255, 0],
+      "fade" : 0.9,
+      "initialVelocity" : [0.0, 5.0],
+      "finalVelocity" : [0.0, -50.0],
+      "approach" : [0, 20],
+      "timeToLive" : 0.6,
+      "layer" : "middle"
+    },
+
+    "particleVariance" : {
+      "initialVelocity" : [1.5, 2.0]
+    }
+  },
+
+  "inventoryIcon" : "greenchandeliericon.png",
+  "orientations" : [
+    {
+      "image" : "greenchandelier.png:<frame>",
+      "imagePosition" : [-11, -23],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "fgAnchors" : [ [0, 1] ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/torch.wav",
+  "soundEffectRadius" : 50
+
+}

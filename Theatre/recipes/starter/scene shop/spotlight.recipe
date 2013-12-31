@@ -8,5 +8,5 @@
     "item" : "spotlight",
     "count" : 1
   },
-  "groups" : [ "sceneshop", "all" ]
+  "groups" : [ "mod", "sceneshop", "all" ]
 }

@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "candle", "count" : 1 },
+	{ "item" : "petalred", "count" : 1 },
+	{ "item" : "petalblue", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "purplecandle",
+    "count" : 1
+  },
+  "groups" : [ "mod", "magiccampfire", "object", "all" ]
+}

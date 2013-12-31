@@ -1,0 +1,108 @@
+{
+  "objectName" : "candle",
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : "50",
+
+  "description" : "The flickering flame melts the soft wax.",
+  "shortdescription" : "Candle",
+  "race" : "generic",
+
+  "hydrophobic" : true,
+
+  "apexDescription" : "An excellent way to illuminate rooms.",
+  "avianDescription" : "Candles are very efficient.",
+  "floranDescription" : "Candle look nicer than torch but still scaresss Floran.",
+  "glitchDescription" : "Statement. Candle burns to quickly",
+  "humanDescription" : "This is a perfect light for reading.",
+  "hylotlDescription" : "A beautiful way to brighten a room.",
+
+
+  "statusEffects" : [
+    {
+      "kind" : "Warmth",
+      "amount" : 8,
+      "range" : 4
+    } ],
+
+  "lightColor" : [255, 255, 255],
+  
+  "pointLight" : true,
+  "pointBeam" : 1,
+  "pointAngle" : 0,
+  "lightPosition" : [0, 0],
+  
+  "flickerDistance" : 0.5,
+  "flickerStrength" : 0.1,
+
+  "particleEmitter" : {
+    "emissionRate" : 1.0,
+    "emissionVariance" : 0.5,
+
+    "particle" : {
+      "type" : "ember",
+      "size" : "1.0",
+      "color" : [255, 255, 255, 255],
+      "light" : [255, 255, 255],
+      "fade" : 0.9,
+      "initialVelocity" : [0.0, 5.0],
+      "finalVelocity" : [0.0, -50.0],
+      "approach" : [0, 20],
+      "timeToLive" : 0.6,
+      "layer" : "middle"
+    },
+
+    "particleVariance" : {
+      "initialVelocity" : [1.5, 2.0]
+    }
+  },
+
+  "inventoryIcon" : "candleicon.png",
+  "orientations" : [
+    {
+      "image" : "candle.png:<frame>",
+      "imagePosition" : [1, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "fgAnchors" : [ [0, -1] ]
+    },
+	
+	{
+      "image" : "candleleft.png:<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "fgAnchors" : [ [-1, 0] ]
+    },
+	
+	{
+      "image" : "candleright.png:<frame>",
+      "imagePosition" : [2, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "fgAnchors" : [ [1, 0] ]
+    },
+
+    {
+      "image" : "candle.png:<frame>",
+      "imagePosition" : [1, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "bgAnchors" : [ [0, 0] ]
+    }
+	
+  ],
+
+  "soundEffect" : "/sfx/objects/torch.wav",
+  "soundEffectRadius" : 50
+
+}
