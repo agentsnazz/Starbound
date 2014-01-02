@@ -1,0 +1,19 @@
+{
+  "projectileName" : "Vlight",
+  "frames" : "Vlight.png",
+  "physics" : "light",
+  "level" : 0,
+  "power" : 0,
+  "frameNumber" : 1,
+  "speed" : 0,
+  "fallSpeed" : 0,
+  "animationLoops" : false,
+  "flippable" : true,
+  "universalDamage" : false,
+  "lightPosition" : [4, 0],
+  "lightColor" : [141, 56, 201],
+  "beamWidth" : 1.1,
+  "ambientFactor" : 0.1,
+  "damageKind" : "default"
+}
+

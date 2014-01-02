@@ -1,0 +1,19 @@
+{
+  "projectileName" : "Blight",
+  "frames" : "Blight.png",
+  "physics" : "light",
+  "level" : 0,
+  "power" : 0,
+  "frameNumber" : 1,
+  "speed" : 0,
+  "fallSpeed" : 0,
+  "animationLoops" : false,
+  "flippable" : true,
+  "universalDamage" : false,
+  "lightPosition" : [4, 0],
+  "lightColor" : [5, 5, 255],
+  "beamWidth" : 1.1,
+  "ambientFactor" : 0.1,
+  "damageKind" : "default"
+}
+

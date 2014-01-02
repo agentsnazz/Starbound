@@ -1,0 +1,11 @@
+{
+  "input" : [
+	{ "item" : "money", "count" : 100 }
+  ],
+  "output" : {
+    "item" : "Yfollower",
+    "count" : 1
+  },
+  "groups" : [ "roadcase" ]
+}
+

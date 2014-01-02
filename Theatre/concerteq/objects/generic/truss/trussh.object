@@ -1,0 +1,33 @@
+{
+  "objectName" : "trussh",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : "150",
+  "description" : "A great place to hang concert equipment .",
+  "shortdescription" : "Horizontal Truss",
+  "race" : "generic",
+
+  "apexDescription" : "A place to hang concert equipment",
+  "avianDescription" : "A place to hang concert equipment",
+  "floranDescription" : "A place to hang concert equipment",
+  "glitchDescription" : "A place to hang concert equipment",
+  "humanDescription" : "A place to hang concert equipment",
+  "hylotlDescription" : "A place to hang concert equipment",
+  
+
+  "inventoryIcon" : "trusshicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "trussh.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+      "collision" : "solid"
+
+    }
+  ]
+
+}

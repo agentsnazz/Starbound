@@ -1,0 +1,119 @@
+{
+  "objectName" : "parcanauburn",
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : "400",
+  "lightColor" : [248, 128, 23],
+  
+  "pointLight" : true,
+  "pointBeam" : 0.2,
+  "description" : "Lights Perfect For Stage and Screen",
+  "shortdescription" : "Auburn Parcan",
+  "race" : "human",
+
+  "apexDescription" : "Lights Perfect For Stage and Screen",
+  "avianDescription" : "Lights Perfect For Stage and Screen",
+  "floranDescription" : "Lights Perfect For Stage and Screen",
+  "glitchDescription" : "Lights Perfect For Stage and Screen",
+  "humanDescription" : "Lights Perfect For Stage and Screen",
+  "hylotlDescription" : "Lights Perfect For Stage and Screen",
+
+  "inventoryIcon" : "parcanicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "parcanceiling1.png:<color>.<frame>", "unlit" : true }, { "image" : "parcanceiling2.png:<color>.<frame>" } ],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "imagePosition" : [-4, -8],
+
+      "spaceScan" : 0.01,
+      "anchors" : [ "top" ],
+      "lightPosition" : [0, -1],
+      "pointAngle" : 270
+    },
+
+    {
+      "imageLayers" : [ { "image" : "parcanceilingleft1.png:<color>.<frame>", "unlit" : true }, { "image" : "parcanceilingleft2.png:<color>.<frame>" } ],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "imagePosition" : [0, -8],
+
+      "spaceScan" : 0.01,
+      "anchors" : [ "top", "left" ],
+      "lightPosition" : [0, 0],
+      "pointAngle" : 315
+    },
+
+    {
+      "imageLayers" : [ { "image" : "parcanceilingright1.png:<color>.<frame>", "unlit" : true }, { "image" : "parcanceilingright2.png:<color>.<frame>" } ],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "imagePosition" : [-8, -8],
+
+      "spaceScan" : 0.01,
+      "anchors" : [ "top", "right" ],
+      "lightPosition" : [0, 0],
+      "pointAngle" : 225
+    },
+
+    {
+      "imageLayers" : [ { "image" : "parcanground1.png:<color>.<frame>", "unlit" : true }, { "image" : "parcanground2.png:<color>.<frame>" } ],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "imagePosition" : [-4, 0],
+
+      "spaceScan" : 0.01,
+      "anchors" : [ "bottom" ],
+      "lightPosition" : [0, 1],
+      "pointAngle" : 90
+    },
+
+    {
+      "imageLayers" : [ { "image" : "parcangroundleft1.png:<color>.<frame>", "unlit" : true }, { "image" : "parcangroundleft2.png:<color>.<frame>" } ],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.01,
+      "anchors" : [ "bottom", "left" ],
+      "lightPosition" : [0, 0],
+      "pointAngle" : 45
+    },
+
+    {
+      "imageLayers" : [ { "image" : "parcangroundright1.png:<color>.<frame>", "unlit" : true }, { "image" : "parcangroundright2.png:<color>.<frame>" } ],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.01,
+      "anchors" : [ "bottom", "right" ],
+      "lightPosition" : [0, 0],
+      "pointAngle" : 135
+    },
+
+    {
+      "imageLayers" : [ { "image" : "parcanleft1.png:<color>.<frame>", "unlit" : true }, { "image" : "parcanleft2.png:<color>.<frame>" } ],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "imagePosition" : [0, -4],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left" ],
+      "lightPosition" : [1, 0],
+      "pointAngle" : 0
+    },
+
+    {
+      "imageLayers" : [ { "image" : "parcanright1.png:<color>.<frame>", "unlit" : true }, { "image" : "parcanright2.png:<color>.<frame>" } ],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "imagePosition" : [-8, -4],
+
+      "spaceScan" : 0.01,
+      "anchors" : [ "right" ],
+      "lightPosition" : [-1, 0],
+      "pointAngle" : 180
+    }
+  ]
+}

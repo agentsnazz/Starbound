@@ -1,0 +1,81 @@
+{
+  "objectName" : "Rfollower",
+  "rarity" : "Common",
+  "objectType" : "wire",
+
+  "category" : "wire",
+  "price" : "2000",
+  "description" : "The finest automated lights around.",
+  "shortdescription" : "Red Follower",
+  "race" : "apex",
+
+  "apexDescription" : "The finest automated lights around.",
+  "avianDescription" : "The finest automated lights around.",
+  "floranDescription" : "The finest automated lights around.",
+  "glitchDescription" : "The finest automated lights around.",
+  "humanDescription" : "The finest automated lights around.",
+  "hylotlDescription" : "The finest automated lights around.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "Rfollower.png:idle" }, { "image" : "Rfollower.png:bracket" } ],
+      "spaces" : [
+        [0, 0], [1, 0], [2, 0], [3, 0],
+        [0, 1], [1, 1], [2, 1], [3, 1],
+        [0, 2], [1, 2]
+      ],
+      "anchors" : [ "top" ],
+      "direction" : "right",
+      "imagePosition" : [1, 1]
+    },
+    {
+      "imageLayers" : [ { "image" : "Rfollower.png:idle" }, { "image" : "Rfollower.png:bracket" } ],
+      "flipImages" : true,
+      "spaces" : [
+        [0, 0], [1, 0], [2, 0], [3, 0],
+        [0, 1], [1, 1], [2, 1], [3, 1],
+        [0, 2], [1, 2]
+      ],
+      "anchors" : [ "top" ],
+      "direction" : "left",
+      "imagePosition" : [1, 1]
+    }
+  ],
+
+  "scripts" : [
+    "/objects/generic/follower/Rfollower/Rfollower.lua",
+    "/scripts/stateMachine.lua",
+    "/scripts/util.lua",
+    "/scripts/vec2.lua"
+  ],
+  "animation" : "Rfollower.animation",
+  "animationParts" : {
+    "gun" : "Rfollower.png",
+    "bracket" : "Rfollower.png",
+    "beam" : "beam.png"
+  },
+
+  "damageTeam" : {
+    "type" : "passive"
+  },
+
+  "scriptDelta" : 5,
+
+  "outboundNodes" : [ [1, 1] ],
+  "inboundNodes" : [ [1, 1] ],
+
+  "rotationTime" : 2.5,
+  "rotationRange" : [0, 60],
+  "rotationPauseTime" : 0.5,
+
+  "maxLaserLength" : 20,
+
+  "baseOffset" : [1.625, 0.9375],
+  "tipOffset" : [3.375, 0.875],
+
+  "fireCooldown" : 0.05,
+  "fireOffsets" : [-0.25, -0.125, 0, 0.125, 0.25, 0.125, 0, -0.125],
+  "targetHoldTime" : 2
+
+}

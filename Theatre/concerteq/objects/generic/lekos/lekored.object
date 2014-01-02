@@ -1,0 +1,46 @@
+{
+  "objectName" : "lekored",
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : "250",
+  "lightColor" : [255, 0, 0],
+
+  "shortdescription" : "Red Leko",
+  "description" : "A light meant to draw attention to an area.",
+  "race" : "hylotl",
+
+  "apexDescription" : "A light meant to draw attention to an area.",
+  "avianDescription" : "A light meant to draw attention to an area.",
+  "floranDescription" : "A light meant to draw attention to an area.",
+  "glitchDescription" : "A light meant to draw attention to an area.",
+  "humanDescription" : "A light meant to draw attention to an area.",
+  "hylotlDescription" : "A light meant to draw attention to an area.",
+
+  "inventoryIcon" : "lekoicon.png",
+  "orientations" : [
+    {
+      "image" : "lekobottom.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "lightPosition" : [0, 1],
+      "pointAngle" : 90
+
+    },
+    {
+      "image" : "lekotop.png:<color>",
+      "imagePosition" : [-8, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ],
+      "lightPosition" : [0, -1],
+      "pointAngle" : 270
+
+    }
+  ]
+}

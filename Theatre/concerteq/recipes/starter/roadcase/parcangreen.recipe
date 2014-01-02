@@ -1,0 +1,11 @@
+{
+  "input" : [
+	{ "item" : "money", "count" : 100 }
+  ],
+  "output" : {
+    "item" : "parcangreen",
+    "count" : 1
+  },
+  "groups" : [ "roadcase" ]
+}
+

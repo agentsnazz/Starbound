@@ -1,0 +1,42 @@
+{
+  "objectName" : "blindersred",
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : "650",
+  "lightColor" : [255, 0, 0],
+
+  "shortdescription" : "Red Blinders",
+  "description" : "Red Triple Light Blinders.",
+  "race" : "hylotl",
+
+  "apexDescription" : "Geeeshh....Thos Are Bright",
+  "avianDescription" : "Geeeshh....Thos Are Bright",
+  "floranDescription" : "Geeeshh....Thos Are Bright",
+  "glitchDescription" : "Geeeshh....Thos Are Bright",
+  "humanDescription" : "Geeeshh....Thos Are Bright",
+  "hylotlDescription" : "Geeeshh....Thos Are Bright",
+
+  "inventoryIcon" : "blindersicon.png",
+ "orientations" : [
+    {
+      "dualImage" : "bottomblinders.png:<color>",
+      "imagePosition" : [-6, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    },
+    {
+      "dualImage" : "topblinders.png:<color>",
+      "imagePosition" : [-6, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+
+    }
+  ]
+}

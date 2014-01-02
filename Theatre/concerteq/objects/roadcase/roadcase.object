@@ -1,0 +1,81 @@
+{
+  "objectName" : "roadcase",
+  "rarity" : "Common",
+  "objectType" : "interactable",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/roadcase.config",
+    "filter" : [ "roadcase" ]
+  },
+  "printable" : true,
+  "description" : "This Things Packed!!!",
+  "shortdescription" : "Roadcase",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : "200",
+
+  "apexDescription" : "Look at all this Equipment.",
+  "avianDescription" : "Look at all this Equipment.",
+  "floranDescription" : "Look at all this Equipment.",
+  "glitchDescription" : "Look at all this Equipment.",
+  "humanDescription" : "Look at all this Equipment.",
+  "hylotlDescription" : "Look at all this Equipment.",
+
+  "inventoryIcon" : "roadcaseicon.png",
+  "learnBlueprintsOnPickup" : [
+    "NCfollower",
+    "Rfollower",
+	"TBfollower",
+	"Vfollower",
+	"Yfollower",
+	"Pfollower",
+	"Afollower",
+	"PPfollower",
+	"Gfollower",
+	"Bfollower",
+    "lekoblue",
+    "lekotronblue",
+    "lekogreen",
+    "lekoyellow",
+    "lekored",
+    "lekoauburn",
+    "lekopink",
+    "lekoviolet",
+    "lekopurple",
+	"parcannocolor",
+    "parcanblue",
+    "parcantronblue",
+    "parcangreen",
+    "parcanyellow",
+    "parcanred",
+    "parcanauburn",
+    "parcanpink",
+    "parcanviolet",
+    "parcanpurple",
+    "blindersnocolor",
+    "blindersblue",
+    "blinderstronblue",
+    "blindersgreen",
+    "blindersyellow",
+    "blindersred",
+    "blindersauburn",
+    "blinderspink",
+    "blindersviolet",
+    "blinderspurple",
+    "trussh",
+    "trussv"
+  ],
+  "orientations" : [
+    {
+      "dualImage" : "roadcase.png:<color>.<frame>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

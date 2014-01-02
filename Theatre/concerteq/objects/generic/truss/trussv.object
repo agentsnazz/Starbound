@@ -1,0 +1,46 @@
+{
+  "objectName" : "trussv",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : "300",
+  "description" : "A great place to hang concert equipment .",
+  "shortdescription" : "Vertical Truss",
+  "race" : "human",
+
+  "apexDescription" : "A place to hang concert equipment",
+  "avianDescription" : "A place to hang concert equipment",
+  "floranDescription" : "A place to hang concert equipment",
+  "glitchDescription" : "A place to hang concert equipment",
+  "humanDescription" : "A place to hang concert equipment",
+  "hylotlDescription" : "A place to hang concert equipment",
+
+  "inventoryIcon" : "trussvicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "trussv.png:<color>",
+      "frames" : 1,
+      "imagePosition" : [-8, -16],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+
+    {
+      "dualImage" : "trussv.png:<color>",
+      "frames" : 1,
+      "imagePosition" : [-8, -16],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    },
+
+    {
+      "dualImage" : "trussv.png:<color>",
+      "frames" : 1,
+      "imagePosition" : [-8, -16],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}
