@@ -1,12 +1,12 @@
 {
-    "name" : "theatre",
+    "name" : "CostumeShop",
     "version" : "Beta v. Angry Koala",
     "path" : ".",
     
     "metadata" : {
         "author" : "agentsnazz",
         "version" : "0.1",
-        "description" : "This mod adds a number of elements related to theatre and live performance art.",
+        "description" : "This mod adds a costume shop crating station that allows the creation of a variety of clothing items, specially designed for theatre.",
         "support_url" : "http://github.com/agentsnazz/starbound/theatre"
     }
 }

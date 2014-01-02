@@ -1,0 +1,12 @@
+{
+    "name" : "SceneShop",
+    "version" : "Beta v. Angry Koala",
+    "path" : ".",
+    
+    "metadata" : {
+        "author" : "agentsnazz",
+        "version" : "0.1",
+        "description" : "This mod adds a number of elements related to theatre and live performance art.",
+        "support_url" : "http://github.com/agentsnazz/starbound/theatre"
+    }
+}
